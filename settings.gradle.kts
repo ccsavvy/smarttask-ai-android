@@ -24,4 +24,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "smarttask-ai-android"
 include(":app")
- 
+include(":data")
+include(":app:domain")
+include(":app:presentation")
+include(":app:di")
